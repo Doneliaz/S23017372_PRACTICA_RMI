@@ -67,7 +67,7 @@ public class PersonaController : IPersonaController
 
             // 2. Refactorización para no repetir código (El método toMap)
             var datos = persona.ToMap();
-            
+
             var where = new Dictionary<string, object>
             {
                 { "IdPersona", persona.IdPersona }
@@ -120,7 +120,7 @@ public class PersonaController : IPersonaController
     {
         // Se define el ArrayList (List en C#) donde se irán guardando las personas convertidas.
         var listaPersonas = new List<Persona>();
-        
+
         // Se invoca listar(tabla) en DBManager que ejecuta el "SELECT * FROM Personas"
         var registros = dbManager.Listar(TABLA_PERSONAS);
 
@@ -151,15 +151,15 @@ public class PersonaController : IPersonaController
     public List<Persona> Find(Persona persona)
     {
         var listaPersonas = new List<Persona>();
-        
-        if (persona == null) 
+
+        if (persona == null)
         {
             return listaPersonas;
         }
 
         // ToMap() ahora solo trae los campos con datos (ej. solo el email)
-        var where = persona.ToMap(); 
-        
+        var where = persona.ToMap();
+
         // Ejecutamos listar pasándole el mapa de condiciones
         var registros = dbManager.Listar(TABLA_PERSONAS, where);
 
@@ -172,7 +172,7 @@ public class PersonaController : IPersonaController
         return listaPersonas;
     }
 
-    public int Delete(int idPersona)
+    public int DeleteById(int idPersona)
     {
         // Reto: Reciclar la lógica de Delete(Persona persona)
         var persona = new Persona { IdPersona = idPersona };

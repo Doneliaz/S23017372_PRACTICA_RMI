@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using CoreWCF;
+using System.ServiceModel;
 
 // Define el "contrato" RMI.
 [ServiceContract]
@@ -38,5 +38,5 @@ public interface IPersonaController
     List<Persona> Find(Persona persona);
 
     [OperationContract]
-    int Delete(int idPersona);
+    int DeleteById(int idPersona);
 }

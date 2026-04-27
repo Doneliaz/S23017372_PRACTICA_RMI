@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteRMI", "ClienteRMI.csproj", "{43A6538D-C3F7-A3FC-5A1A-93942036088E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43A6538D-C3F7-A3FC-5A1A-93942036088E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A6538D-C3F7-A3FC-5A1A-93942036088E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A6538D-C3F7-A3FC-5A1A-93942036088E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A6538D-C3F7-A3FC-5A1A-93942036088E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5B641EF-9A03-4A1A-90AB-B41FF549A2C1}
+	EndGlobalSection
+EndGlobal

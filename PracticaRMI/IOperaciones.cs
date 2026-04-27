@@ -1,4 +1,4 @@
-using CoreWCF;
+using System.ServiceModel;
 
 // La interfaz indica qué métodos puede invocar el cliente de manera remota.
 // [ServiceContract] es el equivalente en C# a heredar de java.rmi.Remote

@@ -1489,6 +1489,182 @@
           }
         }
       },
+      "System.ServiceModel.NetFramingBase/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceModel.Primitives": "8.1.1"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.NetFramingBase.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.NetFramingBase.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.ServiceModel.NetTcp/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceModel.NetFramingBase": "8.1.1",
+          "System.ServiceModel.Primitives": "8.1.1"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.NetTcp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.NetTcp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ObjectPool": "8.0.10",
+          "System.Security.Cryptography.Xml": "8.0.2"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.Duplex.dll": {
+            "related": ".pdb"
+          },
+          "lib/net8.0/System.ServiceModel.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "lib/net8.0/System.ServiceModel.Security.dll": {
+            "related": ".pdb"
+          },
+          "lib/net8.0/System.ServiceModel.dll": {
+            "related": ".Duplex.pdb;.pdb;.Primitives.pdb;.Security.pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "System.Text.Encodings.Web/8.0.0": {
         "type": "package",
         "compile": {
@@ -3487,6 +3663,139 @@
         "version.txt"
       ]
     },
+    "System.ServiceModel.NetFramingBase/8.1.1": {
+      "sha512": "I0uBkY4vN8kkz1Lp1EMXmhtHwAMS56Nr2YXXcYc1z0Rz9yTwd6skXy7bvmvdkPFSo66LSZ3BgXiYhkBk9zH85g==",
+      "type": "package",
+      "path": "system.servicemodel.netframingbase/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/System.ServiceModel.NetFramingBase.dll",
+        "lib/net8.0/System.ServiceModel.NetFramingBase.pdb",
+        "lib/net8.0/cs/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.NetFramingBase.resources.dll",
+        "ref/net8.0/System.ServiceModel.NetFramingBase.dll",
+        "system.servicemodel.netframingbase.8.1.1.nupkg.sha512",
+        "system.servicemodel.netframingbase.nuspec"
+      ]
+    },
+    "System.ServiceModel.NetTcp/8.1.1": {
+      "sha512": "zR+irrXvrQcMsutBhEWknlXrD+ZeMdmdf+h8KZckBIp3p3mIjTIkimsE0Il8cgSVMTC7/4no8nAAYYazQ1O6Pw==",
+      "type": "package",
+      "path": "system.servicemodel.nettcp/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.ServiceModel.NetTcp.dll",
+        "lib/net462/System.ServiceModel.NetTcp.pdb",
+        "lib/net8.0/System.ServiceModel.NetTcp.dll",
+        "lib/net8.0/System.ServiceModel.NetTcp.pdb",
+        "lib/net8.0/cs/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.NetTcp.resources.dll",
+        "lib/netstandard2.0/System.ServiceModel.NetTcp.dll",
+        "lib/netstandard2.0/System.ServiceModel.NetTcp.pdb",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/net462/System.ServiceModel.NetTcp.dll",
+        "ref/net8.0/System.ServiceModel.NetTcp.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/System.ServiceModel.NetTcp.dll",
+        "system.servicemodel.nettcp.8.1.1.nupkg.sha512",
+        "system.servicemodel.nettcp.nuspec"
+      ]
+    },
+    "System.ServiceModel.Primitives/8.1.1": {
+      "sha512": "v+jwURtpzg1eI5RDARP9AAQg5GmtNu6rWAOVTauL74cB8jcuP6DB8PVpz1IPTRavX6qlFAKkS+X+9QR5S84QyA==",
+      "type": "package",
+      "path": "system.servicemodel.primitives/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.ServiceModel.Duplex.dll",
+        "lib/net462/System.ServiceModel.Duplex.pdb",
+        "lib/net462/System.ServiceModel.Primitives.dll",
+        "lib/net462/System.ServiceModel.Primitives.pdb",
+        "lib/net462/System.ServiceModel.Security.dll",
+        "lib/net462/System.ServiceModel.Security.pdb",
+        "lib/net8.0/System.ServiceModel.Duplex.dll",
+        "lib/net8.0/System.ServiceModel.Duplex.pdb",
+        "lib/net8.0/System.ServiceModel.Primitives.dll",
+        "lib/net8.0/System.ServiceModel.Primitives.pdb",
+        "lib/net8.0/System.ServiceModel.Security.dll",
+        "lib/net8.0/System.ServiceModel.Security.pdb",
+        "lib/net8.0/System.ServiceModel.dll",
+        "lib/net8.0/System.ServiceModel.pdb",
+        "lib/net8.0/cs/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.Primitives.resources.dll",
+        "lib/netstandard2.0/System.ServiceModel.Duplex.dll",
+        "lib/netstandard2.0/System.ServiceModel.Duplex.pdb",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.pdb",
+        "lib/netstandard2.0/System.ServiceModel.Security.dll",
+        "lib/netstandard2.0/System.ServiceModel.Security.pdb",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/net462/System.ServiceModel.Primitives.dll",
+        "ref/net8.0/System.ServiceModel.Primitives.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "system.servicemodel.primitives.8.1.1.nupkg.sha512",
+        "system.servicemodel.primitives.nuspec"
+      ]
+    },
     "System.Text.Encodings.Web/8.0.0": {
       "sha512": "yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
       "type": "package",
@@ -3654,7 +3963,8 @@
     "net9.0": [
       "CoreWCF.NetTcp >= 1.9.0",
       "CoreWCF.Primitives >= 1.9.0",
-      "Microsoft.Data.Sqlite >= 10.0.7"
+      "Microsoft.Data.Sqlite >= 10.0.7",
+      "System.ServiceModel.NetTcp >= 8.1.1"
     ]
   },
   "packageFolders": {
@@ -3718,6 +4028,10 @@
           "Microsoft.Data.Sqlite": {
             "target": "Package",
             "version": "[10.0.7, )"
+          },
+          "System.ServiceModel.NetTcp": {
+            "target": "Package",
+            "version": "[8.1.1, )"
           }
         },
         "imports": [

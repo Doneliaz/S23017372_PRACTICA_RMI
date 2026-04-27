@@ -3,60 +3,6 @@ using System.Collections.Generic;
 using System.ServiceModel;
 using System.Runtime.Serialization;
 
-// 1. Replicamos el contrato del modelo (Persona) para que el cliente sepa qué datos va a recibir.
-[DataContract]
-public class Persona
-{
-    [DataMember]
-    public int IdPersona { get; set; }
-
-    [DataMember]
-    public string Nombre { get; set; }
-
-    [DataMember]
-    public string Email { get; set; }
-
-    [DataMember]
-    public string Telefono { get; set; }
-}
-
-// 2. Replicamos el contrato del servicio (IPersonaController) para invocar el método List().
-[ServiceContract]
-public interface IPersonaController
-{
-    public const int ADD_EXITO = 1;
-    public const int ADD_ID_DUPLICADO = 2;
-    public const int UPDATE_EXITO = 1;
-    public const int UPDATE_NULO = 2;
-    public const int UPDATE_ID_INEXISTENTE = 3;
-    public const int UPDATE_SIN_EXITO = 4;
-    public const int DELETE_EXITO = 1;
-    public const int DELETE_ID_INEXISTENTE = 2;
-    public const int DELETE_ID_NULO = 3;
-    public const int DELETE_SIN_EXITO = 4;
-
-    [OperationContract]
-    int Add(Persona persona);
-
-    [OperationContract]
-    int Update(Persona persona);
-
-    [OperationContract]
-    int Delete(Persona persona);
-
-    [OperationContract]
-    List<Persona> List();
-
-    [OperationContract]
-    Persona FindOne(int idPersona);
-
-    [OperationContract]
-    List<Persona> Find(Persona persona);
-
-    [OperationContract]
-    int Delete(int idPersona);
-}
-
 namespace ClienteRMI
 {
     class Program
@@ -107,8 +53,8 @@ namespace ClienteRMI
 
                 // -- 4. Probar Delete(int) (El Reto) --
                 int idEliminar = 6;
-                Console.WriteLine($"\n[4] Probando Delete(int) para eliminar ID {idEliminar}...");
-                int resultadoDelete = servidorPersonas.Delete(idEliminar);
+                Console.WriteLine($"\n[4] Probando DeleteById(int) para eliminar ID {idEliminar}...");
+                int resultadoDelete = servidorPersonas.DeleteById(idEliminar);
                 if (resultadoDelete == IPersonaController.DELETE_EXITO)
                     Console.WriteLine("  ¡Eliminado con éxito!");
                 else if (resultadoDelete == IPersonaController.DELETE_ID_INEXISTENTE)
