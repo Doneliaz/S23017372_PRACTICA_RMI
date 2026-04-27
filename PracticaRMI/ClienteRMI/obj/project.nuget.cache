@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NBrWwDaHAOY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dogue\\projects\\S23017372_PRACTICA_RMI\\PracticaRMI\\ClienteRMI\\ClienteRMI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dogue\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.10\\microsoft.extensions.objectpool.8.0.10.nupkg.sha512",
+    "C:\\Users\\dogue\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+    "C:\\Users\\dogue\\.nuget\\packages\\system.security.cryptography.xml\\8.0.2\\system.security.cryptography.xml.8.0.2.nupkg.sha512",
+    "C:\\Users\\dogue\\.nuget\\packages\\system.servicemodel.netframingbase\\8.1.1\\system.servicemodel.netframingbase.8.1.1.nupkg.sha512",
+    "C:\\Users\\dogue\\.nuget\\packages\\system.servicemodel.nettcp\\8.1.1\\system.servicemodel.nettcp.8.1.1.nupkg.sha512",
+    "C:\\Users\\dogue\\.nuget\\packages\\system.servicemodel.primitives\\8.1.1\\system.servicemodel.primitives.8.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
