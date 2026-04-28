@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticaRMI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b8b0cf98e4846608a8409962c1b3157dba36728")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e277c410f3cbc45984bb642e866b12881908de0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticaRMI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticaRMI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

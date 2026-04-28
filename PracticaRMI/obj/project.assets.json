@@ -3974,11 +3974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dogue\\projects\\S23017372_PRACTICA_RMI\\PracticaRMI\\PracticaRMI.csproj",
+      "projectUniqueName": "C:\\Users\\dogue\\Proyects\\S23017372_PRACTICA_RMI\\PracticaRMI\\PracticaRMI.csproj",
       "projectName": "PracticaRMI",
-      "projectPath": "C:\\Users\\dogue\\projects\\S23017372_PRACTICA_RMI\\PracticaRMI\\PracticaRMI.csproj",
+      "projectPath": "C:\\Users\\dogue\\Proyects\\S23017372_PRACTICA_RMI\\PracticaRMI\\PracticaRMI.csproj",
       "packagesPath": "C:\\Users\\dogue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dogue\\projects\\S23017372_PRACTICA_RMI\\PracticaRMI\\obj\\",
+      "outputPath": "C:\\Users\\dogue\\Proyects\\S23017372_PRACTICA_RMI\\PracticaRMI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4011,7 +4011,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -4045,6 +4045,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.13, 9.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[9.0.13, 9.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[9.0.13, 9.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[9.0.13, 9.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4053,7 +4071,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
